@@ -309,6 +309,9 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
+  (setq-default
+   git-magit-status-fullscreen t
+   persistent-scratch-save-file (expand-file-name ".persistent-scratch" user-home-directory))
   (add-hook 'markdown-mode-hook 'auto-fill-mode)
 )
 
@@ -326,9 +329,7 @@ you should place you code here."
    js2-strict-missing-semi-warning nil
    js2-strict-trailing-comma-warning nil
    evil-escape-key-sequence "tn"
-   git-magit-status-fullscreen t
-   ispell-program-name "/usr/local/bin/ispell"
-   persistent-scratch-save-file (expand-file-name ".persistent-scratch" user-home-directory))
+   ispell-program-name "/usr/local/bin/ispell")
   (spacemacs/toggle-automatic-symbol-highlight-on)
   (persistent-scratch-setup-default)
   (server-start)
