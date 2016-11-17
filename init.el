@@ -323,7 +323,7 @@ This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place you code here."
   (setq-default
-   js-indent-level 2 ;; for json
+   js-indent-level 4 ;; for json
    js2-mode-show-parse-errors nil
    js2-mode-show-strict-warnings nil
    js2-strict-missing-semi-warning nil
@@ -331,6 +331,7 @@ you should place you code here."
    evil-escape-key-sequence "tn"
    ispell-program-name "/usr/local/bin/ispell")
   (spacemacs/toggle-automatic-symbol-highlight-on)
+  (spacemacs/toggle-golden-ratio-on)
   (persistent-scratch-setup-default)
   (server-start)
 )
