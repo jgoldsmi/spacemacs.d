@@ -39,6 +39,7 @@ values."
       ansible
       auto-completion
       better-defaults
+      csv
       django
       docker
       emacs-lisp
@@ -58,14 +59,12 @@ values."
              shell-default-term-shell "/usr/local/bin/zsh")
       shell-scripts
       spell-checking
-      spotify
       sql
       syntax-checking
-      vagrant
-      vinegar
       (version-control :variables
                        version-control-diff-tool 'git-gutter
                        version-control-global-margin t)
+      (evil-snipe :variables evil-snipe-enable-alternate-f-and-t-behaviors t)
       yaml
      )
    ;; List of additional packages that will be installed without being
