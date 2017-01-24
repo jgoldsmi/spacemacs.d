@@ -331,6 +331,7 @@ you should place you code here."
    css-indent-offset 2)
   (spacemacs/toggle-automatic-symbol-highlight-on)
   (spacemacs/toggle-golden-ratio-on)
+  (spacemacs/toggle-indent-guide-globally-on)
   (persistent-scratch-setup-default)
   (server-start)
 )
