@@ -327,7 +327,8 @@ you should place you code here."
    js2-strict-missing-semi-warning nil
    js2-strict-trailing-comma-warning nil
    evil-escape-key-sequence "tn"
-   ispell-program-name "/usr/local/bin/ispell")
+   ispell-program-name "/usr/local/bin/ispell"
+   css-indent-offset 2)
   (spacemacs/toggle-automatic-symbol-highlight-on)
   (spacemacs/toggle-golden-ratio-on)
   (persistent-scratch-setup-default)
