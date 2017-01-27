@@ -328,7 +328,7 @@ you should place you code here."
    js2-strict-trailing-comma-warning nil
    evil-escape-key-sequence "tn"
    ispell-program-name "/usr/local/bin/ispell"
-   css-indent-offset 2)
+   web-mode-engines-alist '(("jinja" . "\\.html\\'")))
   (spacemacs/toggle-automatic-symbol-highlight-on)
   (spacemacs/toggle-golden-ratio-on)
   (spacemacs/toggle-indent-guide-globally-on)
