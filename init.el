@@ -46,6 +46,7 @@ values."
       git
       github
       go
+      helm
       html
       javascript
       markdown
